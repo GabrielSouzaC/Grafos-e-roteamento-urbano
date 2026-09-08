@@ -7,6 +7,7 @@
 * Pedro Henrique dos Santos
 * Carlos Eduardo Laera Prado
 * Brayan Allan Nagatani Campos de Almeida
+* João Marcelo El Hafi Batista
 
 ## 🎯 Objetivo
 Investigar e comparar a complexidade, o uso de memória e a escalabilidade do algoritmo de Dijkstra Clássico e suas variantes (Dijkstra Dependente do Tempo e Dijkstra Bidirecional) aplicados estritamente ao problema de caminho mínimo. O projeto foca em avaliar o desempenho e a exatidão dessas estratégias em cenários de tráfego urbano variável.
