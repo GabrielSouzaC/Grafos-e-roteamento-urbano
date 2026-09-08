@@ -1,4 +1,3 @@
-# Grafos-e-roteamento-urbano
 # Complexidade e Escalabilidade de Dijkstra em Redes Urbanas Dinâmicas
 
 **Repositório do projeto de pesquisa do Grupo 4**
