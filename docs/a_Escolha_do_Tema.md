@@ -12,7 +12,7 @@
 | Projeto de Pesquisa / IC | Roteamento de Entregas Urbanas |
 | Orientador(a) | Dra. Andrea Ono Sakai |
 | Data de entrega desta etapa | 18/08/2026 |
-| Integrantes do grupo | Gabriel Souza de Carvalho, Pedro Henrique dos Santos, Carlos Eduardo Laera Prado, Brayan Allan Nagatani Campos de Almeida |
+| Integrantes do grupo | Gabriel Souza de Carvalho, Pedro Henrique dos Santos, Carlos Eduardo Laera Prado, Brayan Allan Nagatani Campos de Almeida, João Marcelo El Hafi        Batista |
 
 ---
 
