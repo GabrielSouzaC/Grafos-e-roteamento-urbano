@@ -4,11 +4,11 @@ Repositório do **Grupo 4** para o projeto de pesquisa da disciplina **Computabi
 
 ## 👥 Integrantes do Grupo
 
-* Gabriel Souza de Carvalho
-* Pedro Henrique dos Santos
-* Carlos Eduardo Laera Prado
-* Brayan Allan Nagatani Campos de Almeida
-* João Marcelo El Hafi Batista
+- Gabriel Souza de Carvalho
+- Pedro Henrique dos Santos
+- Carlos Eduardo Laera Prado
+- Brayan Allan Nagatani Campos de Almeida
+- João Marcelo El Hafi Batista
 
 ## 👩‍🏫 Orientadora
 
@@ -16,9 +16,9 @@ Repositório do **Grupo 4** para o projeto de pesquisa da disciplina **Computabi
 
 ## 🎯 Tema
 
-**Complexidade e escalabilidade de Dijkstra e suas variantes dependentes do tempo em redes urbanas.**
+**Complexidade e escalabilidade de Dijkstra e suas variantes em redes urbanas dinâmicas.**
 
-O trabalho concentra-se na análise teórica do algoritmo de Dijkstra e de suas variantes **Dijkstra Dependente do Tempo** e **Dijkstra Bidirecional**, considerando redes urbanas com tráfego variável.
+O trabalho concentra-se na análise teórica e bibliográfica do algoritmo de Dijkstra e de suas variantes **Dijkstra Dependente do Tempo (TD-Dijkstra)** e **Dijkstra Bidirecional**, considerando o problema do caminho mínimo em redes urbanas com tráfego variável.
 
 ## 🎯 Objetivo Geral
 
@@ -32,33 +32,33 @@ Analisar, com base na literatura científica, a complexidade, o uso de memória 
 
 O projeto possui caráter **exclusivamente bibliográfico e teórico**. A análise está direcionada à literatura científica sobre:
 
-* algoritmo de Dijkstra;
-* Dijkstra Dependente do Tempo (TD-Dijkstra);
-* Dijkstra Bidirecional;
-* problema do caminho mínimo;
-* redes urbanas dinâmicas e tráfego dependente do tempo;
-* complexidade assintótica;
-* uso de memória;
-* escalabilidade;
-* comportamento estrutural dos grafos.
+- algoritmo de Dijkstra;
+- Dijkstra Dependente do Tempo (TD-Dijkstra);
+- Dijkstra Bidirecional;
+- problema do caminho mínimo;
+- redes urbanas dinâmicas e tráfego dependente do tempo;
+- complexidade assintótica;
+- uso de memória;
+- escalabilidade;
+- comportamento estrutural dos grafos.
 
 O estudo considera principalmente as variáveis estruturais:
 
-$$
+\[
 n = |V|
-$$
+\]
 
 representando o número de vértices da rede,
 
-$$
+\[
 m = |E|
-$$
+\]
 
 representando o número de arestas, e
 
-$$
+\[
 K
-$$
+\]
 
 representando o número de intervalos temporais utilizados na modelagem do tráfego dependente do tempo.
 
@@ -66,42 +66,42 @@ representando o número de intervalos temporais utilizados na modelagem do tráf
 
 Para manter o escopo definido pelo Grupo 4, a pesquisa **não aborda**:
 
-* desenvolvimento ou implementação de software;
-* desenvolvimento de sistemas de roteamento;
-* benchmarks de código;
-* simulações computacionais como contribuição central;
-* engenharia de hardware;
-* algoritmo A* e suas variantes;
-* Problema do Caixeiro Viajante (TSP);
-* Problema de Roteamento de Veículos (VRP);
-* planejamento de múltiplas entregas.
+- desenvolvimento ou implementação de software;
+- desenvolvimento de sistemas de roteamento;
+- benchmarks de código;
+- simulações computacionais como contribuição central;
+- engenharia de hardware;
+- algoritmo A* e suas variantes;
+- Problema do Caixeiro Viajante (TSP);
+- Problema de Roteamento de Veículos (VRP);
+- planejamento de múltiplas entregas.
 
 O foco permanece no **problema do caminho mínimo** em redes urbanas dinâmicas e na análise teórica de complexidade, memória e escalabilidade.
 
 ## 📚 Metodologia Bibliográfica
 
-A revisão bibliográfica foi estruturada em etapas de planejamento, busca, triagem e seleção de estudos.
+A revisão bibliográfica foi estruturada em etapas de planejamento, busca, triagem, seleção e fichamento dos estudos.
 
 Foram utilizadas quatro bases de dados:
 
-* **IEEE Xplore**
-* **ACM Digital Library**
-* **ScienceDirect (Elsevier)**
-* **Google Acadêmico**
+- **IEEE Xplore**
+- **ACM Digital Library**
+- **ScienceDirect (Elsevier)**
+- **Google Acadêmico**
 
-Foram definidas três strings booleanas de busca e aplicados critérios de inclusão e exclusão para selecionar os trabalhos mais aderentes ao tema.
+Foram definidas três strings booleanas de busca e aplicados critérios de inclusão e exclusão para selecionar os estudos mais aderentes ao tema.
 
 ### Fluxo da triagem
 
-$$
+\[
 2533\text{ resultados brutos}
 \rightarrow
 130\text{ duplicatas}
 \rightarrow
 2403\text{ registros únicos}
-$$
+\]
 
-$$
+\[
 2403
 \rightarrow
 2325\text{ excluídos}
@@ -109,15 +109,15 @@ $$
 65\text{ dúvidas}
 +
 13\text{ potenciais}
-$$
+\]
 
-$$
+\[
 13
 \rightarrow
 9\text{ excluídos}
 +
 4\text{ artigos definitivos}
-$$
+\]
 
 ## 📖 Artigos Selecionados
 
@@ -130,21 +130,31 @@ O conjunto definitivo da revisão é composto por quatro trabalhos:
 
 ## 📊 Foco da Análise
 
-A etapa de análise do projeto será concentrada na comparação teórica dos estudos selecionados, considerando principalmente:
+A análise dos estudos selecionados será concentrada na comparação teórica das seguintes dimensões:
 
-| Dimensão                  | Foco                                                                    |
-| ------------------------- | ----------------------------------------------------------------------- |
-| **Complexidade de tempo** | Ordem assintótica e dependência de \(n\), \(m\) e \(K\)                 |
-| **Uso de memória**        | Estruturas necessárias para representar e processar o grafo             |
-| **Escalabilidade**        | Comportamento à medida que o tamanho e a dinâmica da rede aumentam      |
-| **Estrutura temporal**    | Impacto dos pesos das arestas dependentes do tempo                      |
-| **Variantes**             | Diferenças entre Dijkstra clássico, TD-Dijkstra e Dijkstra Bidirecional |
+| Dimensão | Foco |
+|---|---|
+| **Complexidade de tempo** | Ordem assintótica e dependência de \(n\), \(m\) e \(K\) |
+| **Uso de memória** | Estruturas necessárias para representar e processar o grafo |
+| **Escalabilidade** | Comportamento à medida que o tamanho e a dinâmica da rede aumentam |
+| **Estrutura temporal** | Impacto dos pesos das arestas dependentes do tempo |
+| **Variantes** | Diferenças entre Dijkstra clássico, TD-Dijkstra e Dijkstra Bidirecional |
 
 ## 📂 Organização do Repositório
 
 ```text
 /
-├── docs/
+├── Artigos/
+│   └── Artigos científicos selecionados e materiais relacionados
+│
+├── Docs/
+│   ├── 00_LEIA-ME.md
+│   ├── 01_tema.md
+│   ├── 02_problema_de_pesquisa.md
+│   ├── 03_objetivos.md
+│   ├── 04_planejamento_da_busca.md
+│   ├── 05_triagem_dos_artigos.md
+│   ├── 06_leitura_e_fichamento.md
 │   ├── a_Escolha_do_Tema.md
 │   ├── b_Levantamento_Bibliografico_Preliminar.md
 │   └── c_objetivo_geral_e_especificos.md
@@ -152,23 +162,16 @@ A etapa de análise do projeto será concentrada na comparação teórica dos es
 └── README.md
 ```
 
-A pasta `/docs` concentra os documentos acadêmicos, registros metodológicos e etapas de desenvolvimento da pesquisa.
+Os arquivos numerados de `00` a `06` correspondem à organização atual das etapas da pesquisa.
 
-O repositório **não tem como objetivo armazenar uma implementação do algoritmo ou um sistema de roteamento**. Seu propósito é documentar o desenvolvimento da pesquisa bibliográfica e da análise teórica.
+Os documentos `a_`, `b_` e `c_` correspondem aos registros anteriores das etapas já desenvolvidas e validadas ao longo do projeto.
 
-## 🧠 Próximas Etapas
+A pasta `Artigos/` reúne os trabalhos científicos utilizados como base para o fichamento e a análise teórica.
 
-Após a definição do corpus bibliográfico, o grupo dará continuidade à pesquisa com:
-
-* fichamento teórico dos quatro artigos selecionados;
-* extração das formulações matemáticas relevantes;
-* identificação das complexidades assintóticas;
-* análise do uso de memória;
-* análise da escalabilidade;
-* construção de uma matriz comparativa entre Dijkstra, TD-Dijkstra e Dijkstra Bidirecional;
-* elaboração da discussão e das considerações finais.
+O repositório **não tem como objetivo armazenar uma implementação do algoritmo ou um sistema de roteamento**. Seu propósito é documentar o desenvolvimento da pesquisa bibliográfica, o processo de seleção dos estudos e a análise teórica realizada pelo grupo.
 
 ---
 
-**Grupo 4 — Ciência da Computação 6° Semestre Noite**
+**Grupo 4 — Ciência da Computação — 6º Semestre / Noite**
+
 **Computabilidade e Complexidade de Algoritmos**

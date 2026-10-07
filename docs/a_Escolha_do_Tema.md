@@ -98,6 +98,12 @@ Sim. Embora o Algoritmo de Dijkstra clássico seja um assunto amplamente documen
 - **Tempo dedicado (aprox.):** 1h30m
 - **Evidência da contribuição:** Estruturação da tabela de delimitação (do amplo ao específico) e revisão geral dos pontos preenchidos no formulário.
 
+### Integrante 5 — João Marcelo El Hafi Batista
+
+- **O que fez nesta etapa:** Contribuí para a discussão e refinamento do tema, auxiliando na delimitação do objeto de estudo e na adequação do escopo à proposta de pesquisa bibliográfica.
+- **Tempo dedicado (aprox.):** 1h30m
+- **Evidência da contribuição:** Participação nas discussões de definição do tema e revisão do escopo apresentado pelo grupo.
+
 ### 5.1 Quadro-resumo de participação
 
 | Integrante | Contribuição principal | % estimado de participação nesta etapa |
